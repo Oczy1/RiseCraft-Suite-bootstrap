@@ -1,0 +1,364 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LostMine</title>
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="./libs/css/slick.css">
+    <link rel="stylesheet" href="./libs/css/slick-theme.css">
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- mobile styles -->
+    <link rel="stylesheet" href="./css/mobie.css">
+</head>
+
+<body class="bodymain">
+    <main class="main">
+        <!-- header -->
+        <div class="container">
+            <header class="header">
+                <div class="header-logo">
+                    <h1 class="header-title">RiseCraft</h1>
+                    <p class="header-subtitle">Игровой сервер Minecraft</p>
+                </div>
+                <nav class="header-menu navbar navbar-expand-lg navbar-light">
+                    <ul class="header-list collapse navbar-collapse" id="headerMenu">
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link header-link__active">Главная</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./rules.html" class="header-link">Правила</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./download.html" class="header-link">Скачать майнкрафт</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">Группа ВК</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </header>
+        </div>
+        <!-- /header -->
+        <!-- section -->
+        <section class="mainpage">
+            <div class="container-xl">
+                <div class="mainpage-alert">
+                    <div class="mainpage-alert__item">
+                        <span class="mainpage-alert__icon mainpage-alert__icon-clock"></span>
+                        <span class="mainpage-alert__text">Скидка 90% на всё!
+                            <p class="mainpage-alert__text-bott">Только сегодня! Большие скидки</p>
+                        </span>
+                    </div>
+                    <div class="mainpage-alert__item">
+                        <span class="mainpage-alert__icon mainpage-alert__icon-notebook"></span>
+                        <span class="mainpage-alert__text">Онлайн на сервере
+                            <p class="mainpage-alert__text-bott">290/1000</p>
+                        </span>
+                    </div>
+                    <div class="mainpage-alert__item">
+                        <span class="mainpage-alert__icon mainpage-alert__icon-pin"></span>
+                        <span class="mainpage-alert__text">IP Сервера
+                            <a class="mainpage-alert__text-copy">play.RiseCraft.ru</a>
+                            <input type="text" class="mainpage-alert__text-copy-input" value="play.risecraft.ru">
+                        </span>
+                    </div>
+                </div>
+                <div class="mainpage-buttons">
+                    <a href="#" class="mainpage-buttons__link">Привелегии</a>
+                    <a href="#" class="mainpage-buttons__link">Кейсы</a>
+                    <a href="#" class="mainpage-buttons__link">Валюта</a>
+                </div>
+                <div class="mainpage-products">
+
+                    <!-- Эксклюзив если надо -->
+                    <!-- <div class="mainpage-products__item exlusive">
+                        <p class="mainpage-products__title" data-text='[Эксклюзив]'>$RISE$</p>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div> -->
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">$RISE$</p>
+                        <div class="mainpage-products__background"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ПУТИН</p>
+                        <div class="mainpage-products__background blue"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ИИСУС</p>
+                        <div class="mainpage-products__background rose"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">MORGENSHERN</p>
+                        <div class="mainpage-products__background green"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ТИТАН</p>
+                        <div class="mainpage-products__background yellow"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">$RISE$</p>
+                        <div class="mainpage-products__background"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ПУТИН</p>
+                        <div class="mainpage-products__background blue"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ИИСУС</p>
+                        <div class="mainpage-products__background rose"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">MORGENSHERN</p>
+                        <div class="mainpage-products__background green"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ТИТАН</p>
+                        <div class="mainpage-products__background yellow"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                    <div class="mainpage-products__item">
+                        <p class="mainpage-products__title">ИИСУС</p>
+                        <div class="mainpage-products__background rose"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-products__image">
+                        <button class="mainpage-products__btn" data-bs-toggle="modal" data-bs-target="#buyModal">
+                            Купить за 10.490₽
+                        </button>
+                    </div>
+                </div>
+                <div class="mainpage-last">
+                    <div class="mainpage-last__item">
+                        <div class="mainpage-last__background"></div>
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                    <div class="mainpage-last__item">
+                        <img src="./images/sword.png" alt="$RISE$" class="mainpage-last__image">
+                        <div class="mainpage-last__info">
+                            <p class="mainpage-last__text">Игрок -> GARFIELD</p>
+                            <p class="mainpage-last__text mainpage-last__text-mb">Купил -> $RISE$</p>
+                            <p class="mainpage-last__text">Сервер -> Выживание #1</p>
+                            <p class="mainpage-last__text">Дата -> Сегодня в 10:50</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container-xl">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h1 class="footer-title">RiseCraft</h1>
+                        <p class="footer-subtitle">Игровой сервер Minecraft</p>
+                    </div>
+                    <nav class="footer-menu">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Главная</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Правила</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Скачать майнкрафт</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Группа ВК</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-text">Copyright © 2020 LostMine. Все права защищены.</p>
+                    <a class="footer-text_link" href="#">Пользовательское соглашение | Политика конфиденциальности </a>
+                    <p class="footer-text">По всем вопросам обращаться сюда: <a class="footer-text_link" href="#">support@risecraft.ru</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+    </main>
+    <!-- buy modal -->
+    <div class="modal fade" id="buyModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <p class="buyModal-title">Покупка привилегии</p>
+                    <p class="buyModal-name">$RISE$ -> 5.000₽</p>
+                    <form action="">
+                        <input type="text" name='nickname' placeholder="Введите ваш никнейм" class="buyModal-input">
+                        <div class="buyModal-servers">
+                            <div class="buyModal-server form-switch">
+                                <label for="server1">Выживание №1</label>
+                                <div class="buyModal-switch">
+                                    <input type="checkbox" name="server" class="form-check-input">
+                                </div>
+                            </div>
+                            <div class="buyModal-server form-switch">
+                                <label for="server2">Выживание №2</label>
+                                <div class="buyModal-switch">
+                                    <input type="checkbox" name="server" class="form-check-input">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="buyModal-desc">Выберите выше сервер, на который хотите получить привилегию*</p>
+                        <button class="buyModal-btn" type="submit">Купить привилегию за 5.000₽</button>
+                        <div class="buyModal-promo">
+                            <a href="#" class="buyModal-link">У меня есть промокод</a>
+                            <input type="text" name="promocode" placeholder="Введите промокод"
+                                class="buyModal-promoInput">
+                        </div>
+                    </form>
+                    <div class="buyModal-info">
+                        <p class="buyModal-text buyModal-text__mb">
+                            Описание привилегии:
+                        </p>
+                        <p class="buyModal-text">Команды:</p>
+                        <p class="buyModal-text">/gm [0/1/2/3] [ник] Изменить режим игры игроку.</p>
+                        <p class="buyModal-text buyModal-text__mb">
+                            /jail [ник] [тюрьма] [время] Посадить грифера в тюрьму.
+                        </p>
+                        <p class="buyModal-text">Возможности:</p>
+                        <p class="buyModal-text">99% всех команд сервера!</p>
+                        <p class="buyModal-text">Консоль на сайте lostmine.ru/console</p>
+                        <p class="buyModal-text buyModal-text__mb">Нет задержки на команды и чат! (кроме опасных)</p>
+                        <p class="buyModal-text">Доступны некоторые запрещённые блоки и предметы!</p>
+                        <p class="buyModal-text buyModal-text__mb">(огниво, барьеры и т.п.)</p>
+                        <p class="buyModal-text buyModal-text__mb">Вы будете добавлены в беседу администрации!</p>
+                        <p class="buyModal-text">Максимальный размер региона 100.000.000 блоков!</p>
+                        <p class="buyModal-text">Никто не сможет: забанить, заткнуть, кикнуть, затроллить и</p>
+                        <p class="buyModal-text">тепнуть на спавн! Вы становитесь самым главным на сервере!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap scripts -->
+    <script src="./libs/js/bootstrap.min.js"></script>
+    <script src="./libs/js/jquery.min.js"></script>
+    <script src="./libs/js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

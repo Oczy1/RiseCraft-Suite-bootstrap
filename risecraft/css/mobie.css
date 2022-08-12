@@ -1,0 +1,529 @@
+@media screen and (max-width: 1400px) {
+  .container {
+    max-width: 1160px;
+  }
+  .header-link {
+    font-size: 16px;
+  }
+  .footer-link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header-logo {
+    margin-right: 30px;
+  }
+  .footer-logo {
+    margin-right: 30px;
+  }
+  .mainpage-last__item:last-of-type .mainpage-last__info {
+    left: 0;
+  }
+  .mainpage-last__item:first-of-type .mainpage-last__info {
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .mainpage-products__item {
+    width: calc( 100% / 4 - 32px);
+  }
+  .banspage .tbody button {
+    right: -10px;
+  }
+  .right-input input,
+  .right-btn {
+    width: 225px;
+  }
+  .right-btn {
+    padding: 0;
+  }
+  .panelpage .nav-link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .rights-new {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rights-input input {
+    margin-bottom: 20px;
+  }
+  .rights-new .rights-users {
+    padding-left: 0px;
+  }
+  .rights-input {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .rights-new button {
+    margin: 0 0 20px;
+    display: block;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .rights-user {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rights-user button {
+    display: block;
+    width: 100%;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-bottom: 20px;
+  }
+  .settigns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .settigns-left {
+    margin-bottom: 20px;
+  }
+  .panelpage .nav-tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .panelpage .nav-item {
+    margin: 0 0 20px;
+  }
+  .settigns-right,
+  .right-input,
+  .right-input input,
+  .right-btn,
+  .settigns-left,
+  .left-commands,
+  .left-message {
+    width: 100%;
+  }
+  .banspage .tbody button {
+    right: 10px;
+    bottom: 10px;
+  }
+  .banspage .thead {
+    display: none;
+  }
+  .banspage .tbody {
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banspage .tbody .tbody-1,
+  .banspage .tbody .tbody-2,
+  .banspage .tbody .tbody-3,
+  .banspage .tbody .tbody-4,
+  .banspage .tbody .tbody-5,
+  .banspage .tbody .tbody-6 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .banspage .tbody p span {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00000080;
+    padding-bottom: 10px;
+  }
+  .rulespage .nav-tabs {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .rulespage .nav-item {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+  .header {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header-menu {
+    width: auto;
+  }
+  .header-menu .header-list.show ~ .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+  .header-menu .header-list.show ~ .navbar-toggler span {
+    -webkit-filter: invert(0);
+            filter: invert(0);
+  }
+  .header-list {
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: 1;
+    width: 100%;
+  }
+  .header-item {
+    margin-bottom: 20px;
+  }
+  .header-link {
+    color: #000;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .navbar-light .navbar-toggler:focus {
+    outline: none;
+  }
+  .navbar-light .navbar-toggler span {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+  .downloadpage-launcher {
+    padding: 50px;
+  }
+  .downloadpage-desc {
+    width: auto;
+  }
+  .consolepage-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .consolepage-commands {
+    margin: 35px 0 0;
+    max-width: 100%;
+  }
+  .consolepage-history {
+    max-width: calc( 100% - 80px);
+  }
+  .consolepage-item {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .consolepage-servers {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .consolepage-btn {
+    padding: 0 10px;
+  }
+  .stats-list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: -20px;
+  }
+  .stats-item {
+    margin-bottom: 20px;
+    width: calc( 100% / 3 - 50px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .stats-item {
+    width: calc( 100% / 2 - 50px);
+  }
+  .banspage-pages {
+    overflow-x: scroll;
+  }
+  .banspage-item {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .consolepage-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .consolepage-input {
+    margin: 0 0 20px;
+  }
+  .consolepage-servers {
+    max-width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 0 20px;
+  }
+  .consolepage-btn {
+    width: 100%;
+    display: block;
+  }
+  .consolepage .history-response {
+    max-height: 60px;
+  }
+  .downloadpage-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .downloadpage-launcher {
+    max-width: 100%;
+  }
+  .mainpage-products {
+    margin: 0;
+  }
+  .mainpage-products__item {
+    width: calc( 100% / 3 - 32px);
+  }
+  .mainpage-last {
+    padding: 10px 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainpage-last__image {
+    margin: 0 10px;
+  }
+  .mainpage-last__info {
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .mainpage-last__item {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-logo {
+    margin-right: 0;
+  }
+  .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer-list {
+    margin-top: 20px;
+  }
+  .promocods-new {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promocods-input input {
+    margin-bottom: 20px;
+  }
+  .promocods-new button {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  .promocods-item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promocods-item p {
+    margin: 0 0 20px;
+  }
+  .promocods-item button {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .buyModal-servers {
+    padding: 0;
+  }
+  .stats-item {
+    width: calc( 100% / 1 - 50px);
+  }
+  .rights-user .rights-servers {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rights-new .rights-servers:last-of-type,
+  .rights-new .rights-servers {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rights-new .rights-server {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .rights-user .rights-server {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  #alert {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .alert-btn {
+    margin: 20px 0 0;
+    display: block;
+    width: 100%;
+  }
+  .settigns-right,
+  .settigns-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .left-commands {
+    margin: 0 0 20px;
+  }
+  .right-btn {
+    margin: 20px 0 0;
+  }
+  .banspage .tbody button {
+    position: relative;
+    display: block;
+    right: auto;
+    bottom: auto;
+  }
+  .banspage .nav-tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  .banspage .nav-item {
+    margin: 0 0 20px;
+  }
+  .banspage-search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .consolepage-history {
+    max-width: calc( 100% - 40px);
+  }
+  .banspage-input {
+    margin: 0 0 20px;
+  }
+  .banspage-btn {
+    display: block;
+    width: 100%;
+  }
+  .consolepage-history .slick-prev {
+    left: -25px;
+  }
+  .consolepage-history .slick-next {
+    right: -25px;
+  }
+  .consolepage-servers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .rulespage .tab-content {
+    padding: 15px;
+  }
+  .rulespage .nav-item {
+    width: 100%;
+  }
+  .header-title {
+    font-size: 36px;
+  }
+  .header-subtitle {
+    font-size: 12px;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .mainpage-products__item {
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  .footer-list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer-link {
+    white-space: nowrap;
+  }
+  .footer-item {
+    margin-bottom: 20px;
+  }
+  .footer-copyright {
+    margin-top: 100px;
+  }
+  .mainpage-alert {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mainpage-alert__item {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .mainpage-alert__item:last-of-type {
+    margin-bottom: 0;
+  }
+  .downloadpage-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  .downloadpage-link:first-of-type {
+    margin: 0 0 20px;
+  }
+}
