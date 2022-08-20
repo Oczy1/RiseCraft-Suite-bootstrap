@@ -1,0 +1,584 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiseCraft</title>
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="./libs/css/bootstrap.min.css">
+    <!-- main styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- mobile styles -->
+    <link rel="stylesheet" href="./css/mobie.css">
+</head>
+
+<body>
+    <main class="main">
+        <!-- header -->
+        <div class="container">
+            <header class="header">
+                <div class="header-logo">
+                    <h1 class="header-title">RiseCraft</h1>
+                    <p class="header-subtitle">Игровой сервер Minecraft</p>
+                </div>
+                <nav class="header-menu navbar navbar-expand-lg navbar-light">
+                    <ul class="header-list collapse navbar-collapse" id="headerMenu">
+                        <li class="header-item">
+                            <a href="./index.html" class="header-link header-link__active">Главная</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./rules.html" class="header-link">Правила</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./download.html" class="header-link">Скачать майнкрафт</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./console.html" class="header-link red">Консоль</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="./panel.html" class="header-link yellow">Панель</a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#" class="header-link">Группа ВК</a>
+                        </li>
+                    </ul>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </header>
+        </div>
+        <!-- /header -->
+        <!-- section -->
+        <section class="panelpage">
+            <div class="container-xl">
+                <div class="panel" id="accordionExample">
+                    <nav class="navigation">
+                        <ul class="navigation-list" id="myTab" role="tablist">
+                            <li class="navigation-item" id="one"><button id="nav-server" class="navigation-toggle" type="button" aria-expanded="true" aria-controls="server" data-bs-target="#server" data-bs-toggle="collapse">Сервер</button></li>
+                            <li class="navigation-item" id="two"><button id="nav-console" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="console" data-bs-target="#console" data-bs-toggle="collapse">Консоль</button></li>
+                            <li class="navigation-item" id="three"><button id="nav-donate" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="donate" data-bs-target="#donate" data-bs-toggle="collapse">Донат [5.25m] (13к+) <input type="text"> </button></li>
+                            <li class="navigation-item" id="four"><button id="nav-fridge" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="fridge" data-bs-target="#fridge" data-bs-toggle="collapse">Холодильник</button></li>
+                            <li class="navigation-item" id="five"><button id="nav-rcon" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="rcon" data-bs-target="#rcon" data-bs-toggle="collapse">Rcon</button></li>
+                            <li class="navigation-item" id="six"><button id="nav-promocode" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="promocode" data-bs-target="#promocode" data-bs-toggle="collapse">Промокоды [3] <input type="text"></button></li>
+                            <li class="navigation-item" id="seven"><button id="nav-ruls" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="ruls" data-bs-target="#ruls" data-bs-toggle="collapse">Права [123] <input type="text"></button></li>
+                            <li class="navigation-item" id=""><button id="nav-phpmyadmin" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="" data-bs-target="" data-bs-toggle="collapse">phpMyAdmin</button></li>
+                            <li class="navigation-item" id=""><button id="nav-multicraft" class="navigation-toggle" type="button" aria-expanded="false" aria-controls="" data-bs-target="" data-bs-toggle="collapse">Multicraft</button></li>
+                        </ul>
+                    </nav>
+                    <div class="panel-content" id="myTabContent">
+                        <div class="collapse tab-content show" id="server" aria-labelledby="one" data-bs-parent="#accordionExample">
+                            <div class="top-nav">
+                                <div class="dropdown-command">
+                                    <button type="button" class="btn btn-command btn-primary server dropdown-toggle" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"> <span class="command-img"></span>Выживание #1</button>
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                            <li><a class="dropdown-item" href="#">Команда #1</a></li>
+                                            <li><a class="dropdown-item" href="#">Команда #1</a></li>
+                                            <li><a class="dropdown-item" href="#">Команда #1</a></li>
+                                        </ul>
+                                </div>
+                                <div class="dropdown-server">
+                                    <button type="button" class="btn btn-command btn-primary server dropdown-toggle" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"> <span class="command-img"></span>Выживание #1</button>
+                                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                                        <li><a class="dropdown-item" href="#">Выживание #1</a></li>
+                                        <li><a class="dropdown-item" href="#">Выживание #1</a></li>
+                                        <li><a class="dropdown-item" href="#">Выживание #1</a></li>
+                                    </ul>
+                                </div>
+                                <div class="btn-settings nickname"><span class="pancel-img"></span><input type="text" placeholder="Укажите никнейм"></div>
+                                <div class="btn-settings search"><span class="search-img"></span><input type="text" placeholder="Поиск"></div>
+                            </div>
+                            <div class="console-log">
+                                <p class="console-log__text">
+                                     
+                                </p>
+                            </div>
+                        </div>
+                        <div class="collapse tab-content" id="console"aria-labelledby="two" data-bs-parent="#accordionExample">
+                            <div class="top-nav">
+                                <div class="btn-settings nickname"><span class="pancel-img"></span><input type="text" placeholder="Укажите никнейм"></div>
+                                <div class="btn-settings search"><span class="search-img"></span><input type="text" placeholder="Поиск"></div>
+                            </div>
+                            <div class="console-log"></div>
+                        </div>
+                        <div class="collapse tab-content" id="donate"aria-labelledby="three" data-bs-parent="#accordionExample">
+                            <div class="top-nav">
+                                <div class="btn-settings nickname"><span class="pancel-img"></span><input type="text" placeholder="Укажите никнейм"></div>
+                                <div class="btn-settings search"><span class="search-img"></span><input type="text" placeholder="Поиск"></div>
+                            </div>
+                            <div class="console-log"></div>
+                        </div>
+                        <div class="collapse tab-content" id="fridge"aria-labelledby="four" data-bs-parent="#accordionExample">
+                            <div class="top-nav">
+                                <div class="btn-settings nickname"><span class="pancel-img"></span><input type="text" placeholder="Укажите никнейм"></div>
+                                <div class="btn-settings search"><span class="search-img"></span><input type="text" placeholder="Поиск"></div>
+                            </div>
+                            <div class="console-log"></div>
+                        </div>
+                        <div class="collapse tab-content" id="rcon"aria-labelledby="five" data-bs-parent="#accordionExample">
+                            <div class="top-nav">
+                                <div class="btn-settings nickname"><span class="pancel-img"></span><input type="text" placeholder="Укажите никнейм"></div>
+                                <div class="btn-settings search"><span class="search-img"></span><input type="text" placeholder="Поиск"></div>
+                            </div>
+                            <div class="console-log"></div>
+                        </div>
+                        <div class="collapse tab-content" id="promocode"aria-labelledby="six" data-bs-parent="#accordionExample">
+                            <div class="top-nav-promocode">
+                                <div class="btn-settings-promo promocod"><span class="pancel-img"></span><input type="text" placeholder="Название промокода"></div>
+                                <div class="btn-settings-promo hotsale"><span class="hot-img"></span><button type="button" >Размер скидки</button></div>
+                                <div class="btn-settings-promo plus"><span class="plus-img"></span><button type="button" >Добавить промокод</button></div>
+                            </div>
+                            <div class="promocode-log">
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                                <div class="promocode-content">
+                                    <h3 class="promocode-title">LovePenisl</h3>
+                                    <div class="promocode-skidka"><span class="hot-img"></span>Размер скидки 25%</div>
+                                    <button class="promocode-btn" type="button">Удалить промокод</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collapse tab-content" id="ruls"aria-labelledby="seven" data-bs-parent="#accordionExample">
+                            <div class="top-nav-ruls">
+                                <div class="btn-setings adress"><span  class="pancel-img"></span><input type="text" placeholder="Ссылка ВК"></div>
+                                <div class="btn-setings adress"><span  class="pancel-img"></span><input type="text" placeholder="Никнейм"></div>
+                                <div class="top-nav-switch">
+                                    <div class="form-check form-switch">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Админ</label>
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Лост</label>
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <label class="form-check-label" for="flexSwitchCheckDefault">Модер</label>
+                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                    </div>
+                                </div>
+                                <div class="btn-settings-ruls newuser"><span class="plus-img"></span><button type="button" >Добавить</button></div>
+                            </div>
+                            <div class="ruls-log">
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                                <div class="ruls-content">
+                                    <h3 class="ruls-title">Игорь Пердахичев</h3>
+                                    <div class="ruls-prava">
+                                        <p class="prava-text">Pinisokobzon2014</p>
+                                        <p class="prava-text redtxt">Админ</p>
+                                        <p class="prava-text purpletxt">Лост</p>
+                                        <p class="prava-text greentxt">Модер</p>
+                                    </div>
+                                    <div class="ruls-btn-modal">
+                                        <button class="ruls-modal" data-bs-toggle="modal" data-bs-target="#buyModal"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container-xl">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h1 class="footer-title">RiseCraft</h1>
+                        <p class="footer-subtitle">Игровой сервер Minecraft</p>
+                    </div>
+                    <nav class="footer-menu">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Главная</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Правила</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Скачать майнкрафт</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Консоль</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Панель</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#" class="footer-link">Группа ВК</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-copyright">
+                    <p class="footer-text">Copyright © 2020 LostMine. Все права защищены.</p>
+                    <a class="footer-text_link" href="#">Пользовательское соглашение | Политика конфиденциальности </a>
+                    <p class="footer-text">По всем вопросам обращаться сюда: <a class="footer-text_link" href="#">support@risecraft.ru</a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+    </main>
+    <div class="modal rulmodal fade" id="buyModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog rulmodal-dialog">
+            <div class="modal-content rulmodal-content">
+                <div class="modal-body rulmodal-body">
+                    <button class="modal-close rulmodal-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-name"><button class="name__btn pancel-btn"></button><h5>Игорь Попкович</h5></div>
+                    <div class="modal-nickname"><button class="nickname__btn pancel-btn"></button><p>Pinisokobzon2014</p></div>
+                    <div class="modal__switch">
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Админ</label>
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        </div>
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Лост</label>
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        </div>
+                        <div class="form-check form-switch">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Модер</label>
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        </div>
+                    </div>
+                    <div class="modal__btn"><span class="delete-img"></span><button class="btn__delete" type="button">Удалить</button></div>
+                    <div class="modal__btn"><span class="floppy-img"></span><button class="btn__save" type="button">Сохранить</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap scripts -->
+    <script src="./libs/js/poper.min.js"></script>
+    <script src="./libs/js/bootstrap.min.js"></script>
+    <script src="./libs/js/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
